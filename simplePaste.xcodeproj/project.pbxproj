@@ -14,6 +14,7 @@
 		F224B33527F67D7C008636A0 /* simplePasteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F224B33427F67D7C008636A0 /* simplePasteTests.swift */; };
 		F224B33F27F67D7C008636A0 /* simplePasteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F224B33E27F67D7C008636A0 /* simplePasteUITests.swift */; };
 		F224B34127F67D7C008636A0 /* simplePasteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F224B34027F67D7C008636A0 /* simplePasteUITestsLaunchTests.swift */; };
+		F224B34E27F67DC1008636A0 /* PBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F224B34D27F67DC1008636A0 /* PBManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		F224B33A27F67D7C008636A0 /* simplePasteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simplePasteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F224B33E27F67D7C008636A0 /* simplePasteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simplePasteUITests.swift; sourceTree = "<group>"; };
 		F224B34027F67D7C008636A0 /* simplePasteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simplePasteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F224B34D27F67DC1008636A0 /* PBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				F224B32627F67D7C008636A0 /* Assets.xcassets */,
 				F224B32827F67D7C008636A0 /* Main.storyboard */,
 				F224B32B27F67D7C008636A0 /* simplePaste.entitlements */,
+				F224B34D27F67DC1008636A0 /* PBManager.swift */,
 			);
 			path = simplePaste;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 			files = (
 				F224B32527F67D7B008636A0 /* ViewController.swift in Sources */,
 				F224B32327F67D7B008636A0 /* AppDelegate.swift in Sources */,
+				F224B34E27F67DC1008636A0 /* PBManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

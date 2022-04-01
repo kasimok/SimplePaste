@@ -10,11 +10,12 @@ import Cocoa
 @main
 class AppDelegate: NSObject, NSApplicationDelegate {
 
-    
+    let pbManager = OkaPBManager.shared
 
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
+        pbManager.startMonitor()
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
